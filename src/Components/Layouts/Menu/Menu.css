@@ -1,0 +1,23 @@
+.Menu {
+    background-color: #c5bbf4;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:flex-start;
+    /* margin: 40px; */
+    padding: 10px;
+}
+link{
+    font: size 100px;
+    font-weight: 100px;
+    
+}
+.Menu > * {
+      margin: 10px;
+      padding :0px;
+      font-weight: 700;
+      font-size: 40px;
+     flex-direction: row ;
+     justify-content: flex-start;
+     align-items:start;
+}
